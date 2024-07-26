@@ -38,8 +38,14 @@ public class QuadraticEquation implements Consumer<double[]> {
 
 	public void printResult() {
 		if (rootsImg == 0) {
-			System.out.println("root 1 is " + root1);
-			System.out.println("root 2 is " + root2);
+			if(root1 == root2)
+			System.out.println("root is " + root1);
+			else
+			{
+				System.out.println("root 1 is " + root1);
+			    System.out.println("root 2 is " + root2);
+			}
+			
 		} else {
 			System.out.println("root 1 is Complex : " + root1 + " + i " + rootsImg);
 			System.out.println("root 2 is Complex : " + root2 + " - i" + rootsImg);
