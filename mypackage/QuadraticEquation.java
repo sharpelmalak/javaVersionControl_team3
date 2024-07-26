@@ -3,9 +3,9 @@ package mypackage;
 import java.util.function.Consumer;
 
 public class QuadraticEquation implements Consumer<double[]> {
-	final private double root1;
-	final private double root2;
-	final private double rootsImg;
+	private double root1;
+	private double root2;
+	private double rootsImg;
 
 	public QuadraticEquation() {
 		root1 = 0;
@@ -38,14 +38,13 @@ public class QuadraticEquation implements Consumer<double[]> {
 
 	public void printResult() {
 		if (rootsImg == 0) {
-			if(root1 == root2)
-			System.out.println("root is " + root1);
-			else
-			{
+			if (root1 == root2)
+				System.out.println("root is " + root1);
+			else {
 				System.out.println("root 1 is " + root1);
-			    System.out.println("root 2 is " + root2);
+				System.out.println("root 2 is " + root2);
 			}
-			
+
 		} else {
 			System.out.println("root 1 is Complex : " + root1 + " + i " + rootsImg);
 			System.out.println("root 2 is Complex : " + root2 + " - i" + rootsImg);
