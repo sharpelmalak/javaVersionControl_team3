@@ -6,14 +6,6 @@ public class Lab {
 		//taskThree();
 	}
 
-	public static void taskOne() {
-		TemperatureConvert Tc = new TemperatureConvert();
-		System.out.println("Temp in C is " + 15);
-		System.out.println("Temp in F is " + Tc.apply(15f));
-	}
-
-
-
 	public static void taskThree() {
 		double[] co = { 1.0, -2.0, 1.0 };
 		QuadraticEquation qe = new QuadraticEquation();
