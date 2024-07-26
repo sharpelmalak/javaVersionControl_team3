@@ -2,8 +2,8 @@ package mypackage;
 
 public class Lab {
 	public static void main(String args[]) {
-		taskOne();
-		//taskThree();
+		//taskOne();
+		taskThree();
 	}
 
 	public static void taskThree() {
