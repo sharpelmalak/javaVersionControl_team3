@@ -6,7 +6,7 @@ public class Lab {
 		//taskOne();
 		taskThree();
 		// this is new brach
-
+		
 	}
 
 	public static void taskThree() {
