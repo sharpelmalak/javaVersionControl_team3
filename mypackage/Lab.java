@@ -6,6 +6,7 @@ public class Lab {
 		//taskOne();
 		taskThree();
 		// this is new 2ol2asa
+		//Adding new stuff
 	}
 
 	public static void taskThree() {
